@@ -93,6 +93,10 @@
       margin-bottom: 2rem;
     }
 
+    .card:nth-child(odd) {
+      background-color: var(--background2); 
+    }
+
     .card p {
       text-align: justify;
     }
@@ -107,7 +111,6 @@
 
     figure {
       text-align: center;
-     /* max-width: 45%; */
     }
 
     figure img {
