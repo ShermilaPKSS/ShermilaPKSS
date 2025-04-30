@@ -140,11 +140,11 @@
 
     .bibtexContainer {
       position: relative;
-      margin-bottom: 2rem;
+      margin: 2rem 0;
     }
     
     .bibtexContainer pre {
-      background-color: var(--primary);
+      background-color: var(--background2);
       padding: 1rem;
       border-radius: 0.3rem;
       font-family: 'Courier New', Courier, monospace;
