@@ -143,17 +143,17 @@
       margin-top: 1rem;
     }
     
-    .bibtex-container pre {
-      background-color: #f4f4f4;
+    .bibtexContainer pre {
+      background-color: var(--background2);
       padding: 1rem;
-      border-left: 4px solid var(--accent);
       border-radius: 0.3rem;
       font-family: 'Courier New', Courier, monospace;
       font-size: 0.95rem;
       overflow-x: auto;
+      white-space: pre-wrap;
     }
     
-    .bibtex-container button {
+    /*.bibtex-container button {
       margin-top: 0.5rem;
       padding: 0.4rem 0.8rem;
       font-size: 0.9rem;
@@ -163,9 +163,19 @@
       border-radius: 0.3rem;
       cursor: pointer;
       transition: background-color 0.3s ease;
-    }
-    
-    .bibtex-container button:hover {
-      background-color: #7bbfa7;
-    }
+    }*/
+
+.copy-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: var(--primary);
+  cursor: pointer;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.copy-icon:hover {
+  color: var(--text);
+}
     
