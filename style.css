@@ -137,3 +137,35 @@
       border-radius: 1rem; 
       box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.2);
     }
+
+    .bibtex-container {
+      position: relative;
+      margin-top: 1rem;
+    }
+    
+    .bibtex-container pre {
+      background-color: #f4f4f4;
+      padding: 1rem;
+      border-left: 4px solid var(--accent);
+      border-radius: 0.3rem;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 0.95rem;
+      overflow-x: auto;
+    }
+    
+    .bibtex-container button {
+      margin-top: 0.5rem;
+      padding: 0.4rem 0.8rem;
+      font-size: 0.9rem;
+      background-color: var(--accent);
+      color: white;
+      border: none;
+      border-radius: 0.3rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .bibtex-container button:hover {
+      background-color: #7bbfa7;
+    }
+    
