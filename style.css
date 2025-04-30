@@ -112,7 +112,7 @@
 
     figure img {
       width: 100%;
-      height: 25rem;
+      height: 20rem;
       object-fit: cover;
       border: 0.1rem solid var(--text);
       box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
@@ -145,7 +145,7 @@
     
     .bibtexContainer pre {
       background-color: var(--background2);
-      padding: 2rem;
+      padding: 1rem;
       border-radius: 0.3rem;
       font-family: 'Courier New', Courier, monospace;
       font-size: 0.95rem;
