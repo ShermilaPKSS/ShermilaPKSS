@@ -69,8 +69,8 @@
     .btn {
       display: inline-block;
       margin: 0 1rem;
-      padding: 1rem 1.5rem;
-      width: 8rem;
+      padding: 1.2rem 1.5rem;
+      width: 10rem;
       font-size: 1rem;
       color: var(--text);
       text-decoration: none;
@@ -87,6 +87,13 @@
    .btn:hover {
       color: var(--background2);
       background-color: var(--primary);
+    }
+
+    .separator {
+      color: var(--primary);;
+      font-size: 1.2rem;
+      margin: 0 1rem;
+      vertical-align: middle;
     }
     
     h2 {
@@ -126,7 +133,9 @@
 
   <div class="button-group">
     <a href="sample link" class="btn"><i class="fas fa-file-alt"></i>Paper</a>
+    <span class="separator">|</span>
     <a href="sample link" class="btn"><i class="fab fa-github"></i> Code</a>
+    <span class="separator">|</span>
     <a href="sample link" class="btn"><i class="fas fa-folder-open"></i>Supplementary</a>
   </div>
 
