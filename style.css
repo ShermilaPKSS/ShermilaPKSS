@@ -1,5 +1,10 @@
-<style>
-
+    :root {
+      --primary: #3b3b3b;
+      --accent: #94d2bd;
+      --background1: #ffffff;
+      --background2: #f2f0ef;
+      --text: #000000;
+    }
     body {
       margin: 0;
       padding: 0;
@@ -119,5 +124,3 @@
       margin-top: 0.5rem;
       color: var(--text)
     }
-
-  </style>
