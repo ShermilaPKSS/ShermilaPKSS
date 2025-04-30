@@ -126,11 +126,12 @@
       color: var(--text)
     }
 
-    video container {
+    videoContainer {
       justify-content: center;
       align-items: center;
       margin: 2.5rem 1.5rem;
     }
+
     video {
       max-width: 90%; 
       border-radius: 0.5rem; 
