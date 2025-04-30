@@ -87,6 +87,8 @@
     h2 {
       color: var(--primary);
       margin-top: 2rem;
+      border-left: 0.25rem solid var(--primary);
+      padding-left: 0.5rem;
     }
 
     .card {
@@ -165,11 +167,5 @@
     .copy-icon:hover {
       color: var(--text);
     }
-
-.gradient-line {
-  height: 2px;
-  background: linear-gradient(to right, #ccc, #eee, #ccc);
-  margin: 2rem 0;
-}
 
     
