@@ -96,16 +96,16 @@
   publisher = {ACM}
 }
     </code></pre>
-    <button class="btn" onclick="copyBibtex()">Copy</button>
-    <span class="copy-icon" title="Copy BibTeX">
-      <i class="fas fa-copy"></i>
+    
+    <span class="copy-icon" onclick="copyBibtex() title="Copy BibTeX">
+      <i class="fa-regular fa-copy"></i>
     </span>
   </div>
   
 </div>
 </body>
 
-  <script>
+<script>
   function copyBibtex() {
     const text = document.getElementById("bibtex").innerText;
     navigator.clipboard.writeText(text).then(() => {
