@@ -166,10 +166,10 @@
       color: var(--text);
     }
 
-.section-label {
-  font-variant: small-caps;
-  color: #666;
-  font-size: 1.2rem;
-  margin-top: 2rem;
+.gradient-line {
+  height: 2px;
+  background: linear-gradient(to right, #ccc, #eee, #ccc);
+  margin: 2rem 0;
 }
+
     
