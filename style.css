@@ -93,10 +93,6 @@
       margin-bottom: 2rem;
     }
 
-    .card:nth-child(odd) {
-      background-color: var(--background2); 
-    }
-
     .card p {
       text-align: justify;
     }
@@ -169,4 +165,11 @@
     .copy-icon:hover {
       color: var(--text);
     }
+
+.section-label {
+  font-variant: small-caps;
+  color: #666;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
     
