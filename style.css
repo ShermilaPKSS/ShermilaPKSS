@@ -1,11 +1,4 @@
 <style>
-    :root {
-      --primary: #3b3b3b;
-      --accent: #94d2bd;
-      --background1: #ffffff;
-      --background2: #f2f0ef;
-      --text: #ff0000;
-    }
 
     body {
       margin: 0;
@@ -104,7 +97,7 @@
       justify-content: center;
       align-items: flex-start;
       gap: 2rem;
-      object-fit: contain;
+      object-fit: cover;
       margin: 2.5rem 0;
     }
 
