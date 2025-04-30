@@ -5,6 +5,7 @@
       --background2: #f2f0ef;
       --text: #000000;
     }
+
     body {
       margin: 0;
       padding: 0;
@@ -102,7 +103,8 @@
       justify-content: center;
       align-items: flex-start;
       gap: 2rem;
-      object-fit: contain;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
       margin: 2.5rem 0;
     }
 
