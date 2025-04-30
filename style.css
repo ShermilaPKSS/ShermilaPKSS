@@ -102,7 +102,7 @@
       justify-content: center;
       align-items: flex-start;
       gap: 2rem;
-      object-fit: cover;
+      object-fit: contain;
       margin: 2.5rem 0;
     }
 
