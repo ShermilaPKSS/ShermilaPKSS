@@ -79,7 +79,7 @@
     }
 
     .separator {
-      color: var(--primary);;
+      color: var(--primary);
       font-size: 2rem;
       vertical-align: middle;
     }
