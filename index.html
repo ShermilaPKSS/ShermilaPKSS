@@ -85,8 +85,30 @@
   </div>
 
   <h2>BibTeX</h2>
-
+  <div class="bibtex-container">
+    <pre id="bibtex"><code>
+@inproceedings{yourkey2025,
+  title     = {Sensory Spotlight: Dynamic Multimodal Fusion for Anticipating Human Attention},
+  author    = {Your Name and Coauthor Name},
+  booktitle = {Proceedings of the XYZ Conference on Human-Centered AI},
+  year      = {2025},
+  pages     = {123--134},
+  publisher = {ACM}
+}
+    </code></pre>
+    <button onclick="copyBibtex()">Copy</button>
+  </div>
   
 </div>
 </body>
+
+  <script>
+  function copyBibtex() {
+    const text = document.getElementById("bibtex").innerText;
+    navigator.clipboard.writeText(text).then(() => {
+      alert("BibTeX copied to clipboard!");
+    });
+  }
+</script>
+
 </html>
