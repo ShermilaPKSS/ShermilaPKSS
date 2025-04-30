@@ -105,6 +105,7 @@
       align-items: flex-start;
       gap: 2rem;
       object-fit: contain;
+      margin: 2.5rem 0;
     }
 
     figure {
@@ -114,7 +115,7 @@
 
     figure img {
       width: 100%;
-      height: auto;
+      /*height: auto;*/
       border: 0.1rem solid var(--text);
       box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
       border-radius: 0.3rem;
