@@ -138,9 +138,9 @@
       box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.2);
     }
 
-    .bibtex-container {
+    .bibtexContainer {
       position: relative;
-      margin-top: 1rem;
+      margin-bottom: 2rem;
     }
     
     .bibtexContainer pre {
