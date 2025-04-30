@@ -15,7 +15,7 @@
     }
 
     .container {
-      max-width: 70%;       
+      max-width: 60%;       
       margin: 0 auto;    
       box-sizing: border-box; 
     }
@@ -145,7 +145,7 @@
     
     .bibtexContainer pre {
       background-color: var(--background2);
-      padding: 1rem;
+      padding: 2rem;
       border-radius: 0.3rem;
       font-family: 'Courier New', Courier, monospace;
       font-size: 0.95rem;
