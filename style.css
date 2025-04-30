@@ -87,7 +87,7 @@
     h2 {
       color: var(--primary);
       margin-top: 2rem;
-      border-left: 0.25rem solid var(--background2);
+      border-left: 0.25rem solid #666666;
       padding-left: 0.5rem;
     }
 
