@@ -109,12 +109,18 @@
       justify-content: center;
       align-items: flex-start;
       gap: 0.1rem;
-      margin: 2rem -2rem;
-      max-width: 100%;
+      margin: 2rem 0;
     }
 
     figure {
       text-align: center;
+      flex: 1 1 45%;
+    }
+
+    @media (max-width: 768px) {
+      figure {
+        flex: 1 1 100%;
+      }
     }
 
     figure img {
