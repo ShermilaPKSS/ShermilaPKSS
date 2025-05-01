@@ -107,7 +107,7 @@
     .figure-row {
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
       gap: 0.1rem;
       margin: 2rem -2rem;
       max-width: 100%;
