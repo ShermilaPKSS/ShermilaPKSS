@@ -85,11 +85,11 @@
       background-color: var(--primary);
     }
 
-    .separator {
+   /* .separator {
       color: var(--primary);
       font-size: 2rem;
       vertical-align: middle;
-    }
+    } */
     
     h2 {
       color: var(--primary);
