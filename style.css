@@ -19,6 +19,14 @@
       margin: 0 auto;    
       box-sizing: border-box; 
     }
+
+    /* Mobile styles: screens 600px wide or less */
+    @media (max-width: 600px) {
+      .container {
+        max-width: 100%;
+        padding: 0 10px; /* Optional: Add some horizontal spacing on small screens */
+      }
+    }
     
     header {
       background: var(--background1);
